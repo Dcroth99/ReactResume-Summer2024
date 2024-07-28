@@ -1,0 +1,84 @@
+.wavescontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #4C4A4A;
+    color: white;
+    padding: 20px;
+    margin: 30px auto; /* Center the container horizontally */
+    border: 6px solid #B8FBFF;
+    border-radius: 30px;
+    max-width: 400px; /* Adjust based on your design needs */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    position: relative; /* Needed for positioning the pseudo-element */
+  }
+  
+
+  .wavesH2 {
+    margin: 0;
+    padding: 20px 20px 0 0px;
+    color: #B8FBFF;
+    font-family: 'Georama', sans-serif;
+  }
+
+  .wavesH4 {
+    margin: 0;
+    padding: 20px 20px 0 0px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Istok Web', sans-serif;
+  }
+
+  .wavesH3 {
+    margin: 0;
+    padding: 20px 20px 0 0px;
+    color: #B8FBFF;
+    font-family: 'Georama', sans-serif;
+  }
+
+  .wavesdescription {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .waveshighlight {
+    color: #1CF1FF;
+  }
+
+  @media (min-width: 768px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        position: relative; /* Needed for positioning the pseudo-element */
+        }
+          
+    
+    .wavescontainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #4C4A4A;
+        color: white;
+        padding: 20px;
+        margin: 30px auto; /* Center the container horizontally */
+        border: 6px solid #B8FBFF;
+        border-radius: 30px;
+        max-width: 800px; /* Adjust based on your design needs */
+        }
+        
+    }
+      
+      @media (min-width: 1024px) {
+        
+    }

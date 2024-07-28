@@ -1,0 +1,139 @@
+/* projects.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 480px;
+  padding: 20px;
+  position: relative; /* Needed for positioning the pseudo-element */
+}
+
+.projectscontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #4C4A4A;
+  margin: 30px;
+  color: white;
+  padding: 20px;
+  margin-top: 68px;
+  margin-left: 40px;
+  border-color: #B8FBFF;
+  border-style: solid;
+  border-width: 6px;
+  border-radius: 30px;
+  width: 300px;
+  max-width: 300px;
+}
+
+.projectstitle {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Georama', sans-serif;
+}
+
+.projectslist {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.projectsitem {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.projectImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.projectImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.projectTitle {
+  margin-top: 5px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+
+/* Media Queries for Tablet and Desktop Screens */
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        position: relative; /* Two-column layout for larger screens */
+  }
+
+  .projectscontainer {
+    grid-column: span 2;
+    flex-direction: row;
+    padding: 50px;
+    margin-left: 10px;
+    margin-bottom: 200px;
+    margin-top: 0px;
+    width: 800px;
+    max-width: 600px;
+    border-width: 12px; /* Make the projects section span both columns */
+  }
+
+  .projectstitle {
+    margin-bottom: 40px;
+    font-size: 3rem;
+    color: #B8FBFF;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    position: relative; /* Three-column layout for larger screens */
+  }
+
+  .projectscontainer {
+    grid-column: span 3;
+    flex-direction: row;
+    padding: 50px;
+    margin-left: 10px;
+    margin-bottom: 200px;
+    margin-top: 0px;
+    width: 800px;
+    max-width: 800px;
+    border-width: 12px;
+  }
+
+
+  .projectstitle {
+    margin-bottom: 40px;
+    font-size: 3rem;
+    color: #B8FBFF;
+    text-align: center;
+  }
+  
+}

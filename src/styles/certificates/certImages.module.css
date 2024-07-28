@@ -1,0 +1,72 @@
+.certImageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .certFrame {
+    position: relative;
+    width: 250px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    border: 4px solid #B8FBFF; /* Frame border */
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #FFFFFF; /* Background for the mini webpage */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for effect */
+  }
+  
+  .certImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .certTitle {
+    margin-top: 5px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+
+
+  /* Media Queries for Tablet and Desktop Screens */
+@media (min-width: 768px) {
+    .certFrame {
+        position: relative;
+        width: 500px; /* Adjust as needed */
+        height: 400px; /* Adjust as needed */
+        border: 4px solid #B8FBFF; /* Frame border */
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #FFFFFF; /* Background for the mini webpage */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for effect */
+      }
+  
+    .certTitle {
+      font-size: 1.2rem;
+    }
+
+    .certImage {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+      
+  }
+  
+  @media (min-width: 1024px) {
+    .certFrame {
+        position: relative;
+        width: 600px; /* Adjust as needed */
+        height: 450px; /* Adjust as needed */
+        border: 4px solid #B8FBFF; /* Frame border */
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #FFFFFF; /* Background for the mini webpage */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for effect */
+      }
+    .certTitle {
+      font-size: 1.4rem;
+    }
+  }

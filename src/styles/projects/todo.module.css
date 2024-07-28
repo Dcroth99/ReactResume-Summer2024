@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 480px;
+    padding: 20px;
+    position: relative; /* Needed for positioning the pseudo-element */
+  }
+  
+
+.todocontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #4C4A4A;
+    color: white;
+    padding: 20px;
+    margin: 30px auto; /* Center the container horizontally */
+    border: 6px solid #B8FBFF;
+    border-radius: 30px;
+    max-width: 400px; /* Adjust based on your design needs */
+  }
+
+  
+.todoH2 {
+    margin: 0;
+    padding: 20px 20px 0 0px;
+    color: #B8FBFF;
+    font-family: 'Georama', sans-serif;
+  }
+
+.todoH3 {
+    margin: 0;
+    padding: 20px 20px 0 0px;
+    color: #1CF1FF;
+    font-family: 'Georama', sans-serif;
+}
+
+.todoH4 {
+    margin: 0;
+    padding: 20px 20px 0 0px;
+    color: #B8FBFF;
+    font-family: 'Georama', sans-serif;
+  }
+
+
+.tododescription {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+
+.tododescription1 {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    position: relative; /* Needed for positioning the pseudo-element */
+    }
+      
+
+    .todocontainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #4C4A4A;
+        color: white;
+        padding: 20px;
+        margin: 30px auto; /* Center the container horizontally */
+        border: 6px solid #B8FBFF;
+        border-radius: 30px;
+        max-width: 800px; /* Adjust based on your design needs */
+      }
+    
+}
+  
+  @media (min-width: 1024px) {
+    
+  }

@@ -1,0 +1,120 @@
+/* 
+  profile.module.css
+  for home profile picture
+*/
+.profileFrame {
+  position: relative; /* Ensure the line is positioned relative to this element */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.profileFrame::after {
+  content: "";
+  position: absolute;
+  bottom: -206px; /* Adjust based on spacing */
+  left: 50%;
+  width: 12px;
+  height: 210px; /* Adjust based on spacing */
+  background-color: #B8FBFF;
+}
+
+.mainImgHolder {
+  background: #4C4A4A;
+  height: 150px;
+  width: 150px;
+  border-radius: 50px;
+  border: 12px solid #B8FBFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.mainImage {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+
+/* Media Queries for Tablet and Desktop Screens */
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .mainImgHolder {
+    height: 200px;
+    width: 200px;
+    border: 14px solid #B8FBFF;
+
+  }
+
+  .mainImage {
+    height: 140%;
+    width: 140%;
+  }
+
+  .profileFrame::after {
+    display: none;
+  }
+  .profileFrame {
+    grid-column: span 1;
+    grid-row: 2;
+    grid-column: 1;
+    margin-right: 500px;
+    margin-bottom: 950px;
+    padding-right: 50px;
+
+  }
+  .profileFrame::before {
+    content: "";
+    position: absolute;
+    right: 10px; /* Adjust to position the line starting from the right */
+    top: 48%;
+    width: 76px; /* Length of the line */
+    height: 18px; /* Thickness of the line */
+    background-color: #B8FBFF; /* Color of the line */
+  }
+  
+}
+
+@media (min-width: 1024px) {
+  .mainImgHolder {
+    height: 250px;
+    width: 250px;
+    border: 16px solid #B8FBFF;
+    
+  }
+
+  .mainImage {
+    height: 140%;
+    width: 140%;
+  }
+
+  .profileFrame::after {
+    display: none;
+  }
+
+  .profileFrame {
+    grid-column: span 1;
+    grid-row: 2;
+    grid-column: 1;
+    margin-right: 500px;
+    margin-left: 220px;
+    padding-right: 250px;
+    padding-bottom: 750px;
+    
+  }
+
+  .profileFrame::before {
+    content: "";
+    position: absolute;
+    right: 170px; /* Adjust to position the line starting from the right */
+    top: 17%;
+    width: 90px; /* Length of the line */
+    height: 18px; /* Thickness of the line */
+    background-color: #B8FBFF; /* Color of the line */
+  }
+  
+  
+}

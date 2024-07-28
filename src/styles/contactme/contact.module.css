@@ -1,0 +1,147 @@
+/* contact.module.css */
+.contact {
+  background-color: #4C4A4A;
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+  border: 6px solid #B8FBFF;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 280px;
+  width: calc(100% - 100px);
+}
+
+.contact h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  padding-bottom: 20px;
+  color: #ffffff;
+  font-family: 'Istok Web', sans-serif;
+}
+
+.contactList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-width: 300px;
+}
+
+.contactList li {
+  padding: 10px 0;
+  font-size: 1.0rem;
+  line-height: 1.6rem;
+  color: #ffffff;
+  font-family: 'Georama', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.contactList i {
+  margin-right: 10px;
+  color: #B8FBFF; /* Icon color */
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.socialMedia a {
+  color: white;
+  font-size: 2.5rem; /* Adjust size as needed */
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.socialMedia a:hover {
+  color: #B8FBFF;
+}
+
+
+
+/* Media Queries for Tablet and Desktop Screens */
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .contact {
+    max-width: 320px;
+    padding: 30px;
+    grid-column: span 1;
+    grid-row: 2;
+    grid-column: 1;
+    border: 12px solid #B8FBFF;
+    margin-top: 0px;
+    margin-bottom: 115px;
+    margin-right: 550px;
+    width: 300px;
+  }
+
+  .contactList li {
+    font-size: 1.2rem;
+  }
+
+  .socialMedia a {
+    font-size: 3rem;
+  }
+  .contact h3 {
+    margin-left: 20%;
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Istok Web', sans-serif;
+  }
+  .contact::before {
+    content: "";
+    position: absolute;
+    top: 540px; /* Adjust based on spacing */
+    left: 28%; /* Center the line horizontally */
+    width: 18px; /* Thickness of the line */
+    height: 100px; /* Length of the line */
+    background-color: #B8FBFF; /* Color of the line */
+    transform: translateX(-50%);
+  }
+  
+}
+
+@media (min-width: 1024px) {
+  .contact {
+    margin-top: 300px;
+    max-width: 350px;
+    padding: 40px;
+    grid-column: span 1;
+    grid-row: 2;
+    grid-column: 1;
+    margin-left: 14%;
+    margin-bottom: 130px;
+    border-width: 14px;
+  }
+  .contact h3 {
+    margin-left: 90px;
+    font-size: 1.8rem;
+  }
+
+  .contactList li {
+    font-size: 1.4rem;
+  }
+
+  .socialMedia a {
+    color: #B8FBFF;
+    font-size: 3.5rem;
+    transition: color 0.3s
+  }
+
+  .socialMedia a:hover {
+    color: #B8FBFF;
+  }
+  .contact::before {
+    content: "";
+    position: absolute;
+    top: 600px; /* Adjust based on spacing */
+    left: 45.5%; /* Center the line horizontally */
+    width: 18px; /* Thickness of the line */
+    height: 195px; /* Length of the line */
+    background-color: #B8FBFF; /* Color of the line */
+    transform: translateX(-50%);
+  }
+  
+
+}

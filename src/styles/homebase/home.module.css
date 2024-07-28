@@ -1,0 +1,35 @@
+/* Home.module.css */
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 480px;
+  padding: 20px;
+  position: relative; /* Needed for positioning the pseudo-element */
+}
+
+
+
+/* Media Queries for Tablet and Desktop Screens */
+@media (min-width: 768px) {
+  .homeContainer {
+    margin-right: 200px;
+    display: grid;
+    max-width: 720px;
+    grid-template-columns: repeat(3, 1fr); /* Two-column layout for larger screens */
+    gap: 20px; /* Adjust as needed */
+  }
+}
+
+@media (min-width: 1200px) {
+  .homeContainer {
+    margin-right: 400px;
+    display: grid;
+    max-width: 960px;
+    grid-template-columns: repeat(3, 1fr); /* Three-column layout for larger screens */
+    gap: 20px; /* Adjust as needed */
+  }
+  
+
+}
