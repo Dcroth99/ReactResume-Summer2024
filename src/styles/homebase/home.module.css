@@ -9,8 +9,6 @@
   position: relative; /* Needed for positioning the pseudo-element */
 }
 
-
-
 /* Media Queries for Tablet and Desktop Screens */
 @media (min-width: 768px) {
   .homeContainer {

@@ -3,12 +3,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 100%;
   max-width: 480px;
   padding: 20px;
-  position: relative; /* Needed for positioning the pseudo-element */
-  margin: 0 auto; /* Center the container horizontally */
+  position: relative;
 }
 
 .aboutContainer {
@@ -20,9 +18,9 @@
   border-color: #B8FBFF;
   border-style: solid;
   border-width: 6px;
-  border-radius: 30px;
-  width: 300px;
-  max-width: 300px;
+  border-radius: 50px;
+  width: 350px;
+  max-width: 480px;
   text-align: center;
 }
 
