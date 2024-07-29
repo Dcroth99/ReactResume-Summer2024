@@ -79,9 +79,25 @@
     font-size: 1.2rem;
   }
 
+  .socialMedia {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+
   .socialMedia a {
     font-size: 3rem;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s;
   }
+
+
+  .socialMedia a:hover {
+    color: #B8FBFF;
+  }
+
   .contact h3 {
     margin-left: 20%;
     font-size: 1.8rem;
@@ -122,11 +138,19 @@
   .contactList li {
     font-size: 1.4rem;
   }
+  
+  .socialMedia {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
 
   .socialMedia a {
-    color: #B8FBFF;
     font-size: 3.5rem;
-    transition: color 0.3s
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s;
   }
 
   .socialMedia a:hover {

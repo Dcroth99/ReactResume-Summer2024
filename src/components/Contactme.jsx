@@ -6,8 +6,8 @@ export default function Contactme() {
     <div className={styles.contact}>
       <h3>Contact Me</h3>
       <ul className={styles.contactList}>
-        <li><i className="fas fa-envelope"></i> <strong>Email: </strong> Danielcharlesroth@gmail.com</li>
-        <li><i className="fas fa-phone"></i> <strong>Phone: </strong> (858)-395-3373</li>
+        <li><i className="fas fa-envelope"></i>Email: Danielcharlesroth@gmail.com</li>
+        <li><i className="fas fa-phone"></i>Phone: (858)-395-3373</li>
       </ul>
       <div className={styles.socialMedia}>
         <a href="https://github.com/Dcroth99" target="_blank" rel="noopener noreferrer">
