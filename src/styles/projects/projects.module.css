@@ -6,7 +6,9 @@
   width: 100%;
   max-width: 480px;
   padding: 20px;
-  position: relative; /* Needed for positioning the pseudo-element */
+  position: relative;
+  margin: 0 auto;
+  box-sizing: border-box; /* Needed for positioning the pseudo-element */
 }
 
 .projectscontainer {
