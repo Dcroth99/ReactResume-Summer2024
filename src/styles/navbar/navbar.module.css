@@ -128,7 +128,7 @@
     flex-direction: row;
     align-items: center; /* Align items in the center */
     justify-content: flex-start;  /* Center the items */
-    padding: 10px ; /* Adjust padding */
+    padding: 10px 15px; /* Adjust padding */
     width: 400px; /* Full width */
     height: 50px; /* Fixed height */
     max-width: none;
@@ -161,7 +161,6 @@
   .navbarItems li a:hover {
     color: #B8FBFF;
   }
-  
   .navbarH1 {
     font-size: 2.4rem;
     padding-right: 20px;

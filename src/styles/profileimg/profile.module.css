@@ -69,7 +69,7 @@
   .profileFrame::before {
     content: "";
     position: absolute;
-    right: 10px; /* Adjust to position the line starting from the right */
+    right: 0px; /* Adjust to position the line starting from the right */
     top: 48%;
     width: 76px; /* Length of the line */
     height: 18px; /* Thickness of the line */

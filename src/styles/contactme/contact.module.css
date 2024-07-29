@@ -76,7 +76,7 @@
   }
 
   .contactList li {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
   }
 
   .socialMedia {
@@ -109,9 +109,9 @@
     content: "";
     position: absolute;
     top: 540px; /* Adjust based on spacing */
-    left: 28%; /* Center the line horizontally */
+    left: 29%; /* Center the line horizontally */
     width: 18px; /* Thickness of the line */
-    height: 100px; /* Length of the line */
+    height: 98px; /* Length of the line */
     background-color: #B8FBFF; /* Color of the line */
     transform: translateX(-50%);
   }
@@ -136,9 +136,9 @@
   }
 
   .contactList li {
-    font-size: 1.4rem;
+    font-size: 1.0rem;
   }
-  
+
   .socialMedia {
     display: flex;
     justify-content: center;
@@ -159,7 +159,7 @@
   .contact::before {
     content: "";
     position: absolute;
-    top: 600px; /* Adjust based on spacing */
+    top: 595px; /* Adjust based on spacing */
     left: 45.5%; /* Center the line horizontally */
     width: 18px; /* Thickness of the line */
     height: 195px; /* Length of the line */
