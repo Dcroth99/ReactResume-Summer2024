@@ -7,8 +7,8 @@
   border: 6px solid #B8FBFF;
   text-align: center;
   margin: 0 auto 200px;
-  width: calc(100% - 100px);
-  width: 400px;
+  
+  max-width: 380px;
 }
 
 .aboutLanding::after {
