@@ -14,7 +14,7 @@ export default function Projects() {
     <div className={styles.container}>
     <Navbar />
       <div className={styles.projectscontainer}>
-        <h2 className={styles.projectstitle}>Projects</h2>
+        <h2 className={styles.projectstitle}>Web-Development Projects</h2>
         <ul className={styles.projectslist}>
             {projects.map((project, index) => (
           <ProjectImage key={index} src={project.src} alt={project.alt} title={project.title} link={project.link} />
