@@ -5,10 +5,10 @@ import CertImage from './CertImage';
 
 export default function Certs() {
   const certs = [
-    { title: 'Django Meta Certification', src: '../images/full-stack-developer-certificate-django-web-framework.jpg', alt: 'Waves Social Media' },
-    { title: 'Databases Certification', src: '../images/full-stack-developer-certificate-database-certificate.jpg', alt: 'Tile Game' },
-    { title: 'Back-end Development Certification', src: '../images/full-stack-developer-certificate-back-end-development.jpg', alt: 'TaskTide' },
-    { title: 'Python Programming Certification', src: '../images/full-stack-developer-certificate-python-programming.jpg', alt: 'Portfolio' }
+    { title: 'Django Meta Certification', src: '../images/full-stack-developer-certificate-django-web-framework.jpg', alt: 'Full-Stack Developer Certificate' },
+    { title: 'Databases Certification', src: '../images/full-stack-developer-certificate-database-certificate.jpg', alt: 'Full-Stack Developer Certificate' },
+    { title: 'Back-end Development Certification', src: '../images/full-stack-developer-certificate-back-end-development.jpg', alt: 'Full-Stack Developer Certificate' },
+    { title: 'Python Programming Certification', src: '../images/full-stack-developer-certificate-python-programming.jpg', alt: 'Full-Stack Developer Certificate' }
   ];
 
   return (

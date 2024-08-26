@@ -5,9 +5,9 @@ import ProjectImage from './ProjectImage'; // Import the ProjectImage component
 
 export default function Projects() {
   const projects = [
-    { title: 'Waves Social Media', src: '../images/full-stack-developer-project-waves-socialmedia.jpg', alt: 'Waves Social Media', link: '/projects/waves' },
-    { title: 'TaskTide', src: '../images/full-stack-developer-project-todo-website.jpg', alt: 'TaskTide', link: '/projects/todo' },
-    { title: 'Portfolio', src: '../images/full-stack-developer-project-portfolio.png', alt: 'Portfolio', link: '/projects/portfolio' }
+    { title: 'Waves Social Media', src: '../images/full-stack-developer-project-waves-socialmedia.jpg', alt: 'Full-Stack Development Project', link: '/projects/waves' },
+    { title: 'TaskTide', src: '../images/full-stack-developer-project-todo-website.jpg', alt: 'Full-Stack Development Project', link: '/projects/todo' },
+    { title: 'Web Developer Portfolio', src: '../images/full-stack-developer-project-portfolio.png', alt: 'Full-Stack Development Project', link: '/projects/portfolio' }
   ];
 
   return (

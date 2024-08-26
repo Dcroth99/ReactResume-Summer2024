@@ -5,7 +5,7 @@ export default function Profileimg() {
   return (
     <div className={styles.profileFrame}>
       <div className={styles.mainImgHolder}>
-        <img src="./images/DanielSuit.png" className={styles.mainImage} alt="Daniel Roth" />
+        <img src="./images/DanielSuit.png" className={styles.mainImage} alt="Daniel Roth Web Developer" />
       </div>
     </div>
   );
