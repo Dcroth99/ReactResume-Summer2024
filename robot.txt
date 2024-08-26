@@ -1,0 +1,7 @@
+# Allow all web crawlers access to all content
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+
+
