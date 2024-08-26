@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Home Page -->
+    <url>
+        <loc>https://danielrothdev.com/</loc>
+        <lastmod>2024-08-26</lastmod>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Project Pages -->
+    <url>
+        <loc>https://danielrothdev.com/projects/waves</loc>
+        <lastmod>2024-08-26</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://danielrothdev.com/projects/todo</loc>
+        <lastmod>2024-08-26</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://danielrothdev.com/projects/portfolio</loc>
+        <lastmod>2024-08-26</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Certificates Page -->
+    <url>
+        <loc>https://danielrothdev.com/certificates</loc>
+        <lastmod>2024-08-26</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- About Page -->
+    <url>
+        <loc>https://danielrothdev.com/about</loc>
+        <lastmod>2024-08-26</lastmod>
+        <priority>0.8</priority>
+    </url>
+</urlset>
